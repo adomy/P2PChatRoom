@@ -1,0 +1,66 @@
+Debug: (mainwindow.cpp:125)
+ Register client configuration done!
+Debug: (mainwindow.cpp:126)
+ Local server name:  "unknown"
+Debug: (mainwindow.cpp:127)
+ Local server ip address:   QHostAddress( "192.168.1.106" ) 
+Debug: (mainwindow.cpp:128)
+ Local server port:  9001
+Debug: (mainwindow.cpp:68)
+ Local server ip address:  "192.168.1.106"
+Debug: (mainwindow.cpp:69)
+ Local server port:  9001
+Debug: (mainwindow.cpp:92)
+ Cannot start local chat server.
+Debug: (mainwindow.cpp:125)
+ Register client configuration done!
+Debug: (mainwindow.cpp:126)
+ Local server name:  "unknown"
+Debug: (mainwindow.cpp:127)
+ Local server ip address:   QHostAddress( "192.168.1.106" ) 
+Debug: (mainwindow.cpp:128)
+ Local server port:  9001
+Debug: (mainwindow.cpp:68)
+ Local server ip address:  "192.168.1.106"
+Debug: (mainwindow.cpp:69)
+ Local server port:  9001
+Debug: (mainwindow.cpp:92)
+ Cannot start local chat server.
+Debug: (mainwindow.cpp:125)
+ Register client configuration done!
+Debug: (mainwindow.cpp:126)
+ Local server name:  "É½¶«»Æ½ð"
+Debug: (mainwindow.cpp:127)
+ Local server ip address:   QHostAddress( "192.168.1.100" ) 
+Debug: (mainwindow.cpp:128)
+ Local server port:  9001
+Debug: (mainwindow.cpp:68)
+ Local server ip address:  "192.168.1.100"
+Debug: (mainwindow.cpp:69)
+ Local server port:  9001
+Debug: (mainwindow.cpp:84)
+ Local chat server started.
+Debug: (mainwindow.cpp:99)
+ Connect to register server.
+Debug: (mainwindow.cpp:103)
+ Connected to register server.
+Debug: (registerconnection.cpp:54)
+ Send greeting message!
+Debug: (registerconnection.cpp:60)
+ Send register message!
+Debug: (mainwindow.cpp:178)
+ New passive chat connection.
+Debug: (mainwindow.cpp:340)
+ Add new chat connection to connection list.
+Debug: (chatconnection.cpp:208)
+ Get greeting message:  "unknown:192.168.1.106:9001"
+Debug: (chatdialog.cpp:10)
+ Peer addr string is:  "192.168.1.106:9001"
+Debug: (mainwindow.cpp:257)
+ Chat connection Error.
+Debug: (mainwindow.cpp:350)
+ Remove chat connection from connection list
+Debug: (mainwindow.cpp:287)
+ Chat connection error:  "Remote host closed."
+Debug: (mainwindow.cpp:288)
+ Handle chat connection error done.
