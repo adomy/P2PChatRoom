@@ -37,12 +37,19 @@ v0.1
 
 ##软件运行界面
 * 客户端注册界面
+
 ![客户端注册界面](https://raw.githubusercontent.com/adoryn/P2PChatRoom/master/Material/register_gui.jpg)
+
 * 客户端界面
+
 ![客户端界面](https://raw.githubusercontent.com/adoryn/P2PChatRoom/master/Material/client_gui.jpg)
+
 * 注册服务器界面
+
 ![注册服务器界面](https://raw.githubusercontent.com/adoryn/P2PChatRoom/master/Material/register_server_gui.jpg)
+
 * 客户端通信聊天界面
+
 ![客户端通信聊天界面1](https://raw.githubusercontent.com/adoryn/P2PChatRoom/master/Material/chat_dialog.jpg)
 ![客户端通信聊天界面2](https://raw.githubusercontent.com/adoryn/P2PChatRoom/master/Material/chat_dialog2.jpg)
 
