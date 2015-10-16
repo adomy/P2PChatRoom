@@ -30,3 +30,14 @@ P2P聊天中各个成员管理。每个成员称为一个peer，要有一个中�
 本软件由ChatClient和RegisterServer两部分组成，其中ChatClient为客户端，可执行注册和聊天过程，而RegisterServer为注册服务器，主要用于注册客户端和分发注册客户端信息。
 
 ##软件运行界面
+客户端注册界面
+![客户端注册界面](https://raw.githubusercontent.com/adoryn/P2PChatRoom/master/Material/register_gui.jpg)
+客户端界面
+![客户端界面](https://raw.githubusercontent.com/adoryn/P2PChatRoom/master/Material/client_gui.jpg)
+注册服务器界面
+![注册服务器界面](https://raw.githubusercontent.com/adoryn/P2PChatRoom/master/Material/register_server_gui.jpg)
+客户端通信聊天界面
+![客户端通信聊天界面1](https://raw.githubusercontent.com/adoryn/P2PChatRoom/master/Material/chat_dialog.jpg)
+![客户端通信聊天界面2](https://raw.githubusercontent.com/adoryn/P2PChatRoom/master/Material/chat_dialog2.jpg)
+
+备注：由于个人不会界面设计，因此界面十分粗糙。同时由于功能的相对不完善，因此，对于整个软件的架构设计还有一些方面的不完善，后面估计会考虑去重构该软件。
