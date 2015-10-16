@@ -28,3 +28,5 @@ P2P聊天中各个成员管理。每个成员称为一个peer，要有一个中�
 
 ##软件组成
 本软件由ChatClient和RegisterServer两部分组成，其中ChatClient为客户端，可执行注册和聊天过程，而RegisterServer为注册服务器，主要用于注册客户端和分发注册客户端信息。
+
+##软件运行界面
