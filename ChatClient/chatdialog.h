@@ -13,6 +13,7 @@ public:
     explicit ChatDialog(QWidget *parent = 0, QString username = "localhost", QString peername = "unknown", QString peeraddr = "null", ChatConnection *connection = NULL);
     ~ChatDialog();
 
+    void readAndDisplayHistory(QList<QString>);
 public slots:
     void handleReceivedMssage(QString from, QString message);
     void handleToSendMessage();
@@ -24,7 +25,7 @@ private:
     void initLayout();
 
     /*Qt Widgets*/
-    QLabel *iconLabel;
+    //QLabel *iconLabel;
     QLabel *peerName;
     QLabel *peerAddress;
     QTextEdit *logChat;

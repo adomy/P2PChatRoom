@@ -9,8 +9,8 @@ ChatDialog::ChatDialog(QWidget *parent, QString username, QString peername, QStr
     if(DEBUG)
         qDebug() << "Peer addr string is: " << peeraddr;
 
-    this->iconLabel = new QLabel(QObject::tr("XXXXX\nXXXXX\nXXXXX"), this);
-    this->iconLabel->setAlignment(Qt::AlignCenter);
+    //this->iconLabel = new QLabel(QObject::tr("XXXXX\nXXXXX\nXXXXX"), this);
+    //this->iconLabel->setAlignment(Qt::AlignCenter);
     this->peerName = new QLabel(this);
     this->peerAddress = new QLabel(this);
     this->logChat = new QTextEdit();
@@ -20,8 +20,9 @@ ChatDialog::ChatDialog(QWidget *parent, QString username, QString peername, QStr
     this->logChat->setFocusPolicy(Qt::NoFocus);
     this->logChat->setReadOnly(true);
 
-    this->peerName->setText(peername);
-    this->peerAddress->setText(peeraddr);
+    this->peerName->setText("Username: " + peername);
+    this->peerAddress->setText("Address: " + peeraddr);
+    this->setWindowTitle(peername + "@" + peeraddr);
     this->initLayout();
     this->resize(QSize(480, 360));
 
@@ -44,11 +45,13 @@ void ChatDialog::initLayout()
     infoLayout->addWidget(peerName);
     infoLayout->addWidget(peerAddress);
 
+    /****************************************
     QHBoxLayout *peerLayout = new QHBoxLayout;
     peerLayout->addWidget(iconLabel);
     peerLayout->addLayout(infoLayout);
     peerLayout->setStretch(0, 1);
     peerLayout->setStretch(1, 6);
+    ****************************************/
 
     QHBoxLayout *sendLayout = new QHBoxLayout;
     sendLayout->addWidget(msgSend);
@@ -57,7 +60,8 @@ void ChatDialog::initLayout()
     sendLayout->setStretch(1, 1);
 
     QVBoxLayout *dialogLayout = new QVBoxLayout;
-    dialogLayout->addLayout(peerLayout);
+    //dialogLayout->addLayout(peerLayout);
+    dialogLayout->addLayout(infoLayout);
     dialogLayout->addWidget(logChat);
     dialogLayout->addLayout(sendLayout);
     dialogLayout->setStretch(0, 1);
@@ -78,8 +82,18 @@ void ChatDialog::handleReceivedMssage(QString from, QString message)
     QColor color = this->logChat->textColor();
     this->logChat->setTextColor(Qt::blue);
     this->logChat->append(infoString);
-    this->logChat->setTextColor(Qt::blue);
     this->logChat->append(message + "\n");
+    this->logChat->setTextColor(color);
+    QScrollBar *bar = logChat->verticalScrollBar();
+    bar->setValue(bar->maximum());
+}
+
+void ChatDialog::readAndDisplayHistory(QList<QString> strList)
+{
+    QColor color = this->logChat->textColor();
+    this->logChat->setTextColor(Qt::blue);
+    foreach(QString s, strList)
+        this->logChat->append(s);
     this->logChat->setTextColor(color);
     QScrollBar *bar = logChat->verticalScrollBar();
     bar->setValue(bar->maximum());
@@ -120,7 +134,6 @@ void ChatDialog::handleToSendMessage()
         QColor color = this->logChat->textColor();
         this->logChat->setTextColor(Qt::black);
         this->logChat->append(infoString);
-        this->logChat->setTextColor(Qt::black);
         this->logChat->append(text + "\n");
         this->logChat->setTextColor(color);
 

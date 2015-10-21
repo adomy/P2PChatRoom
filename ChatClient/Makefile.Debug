@@ -149,7 +149,7 @@ debug\icon.res: images\icon.rc
 	rc -D_DEBUG $(DEFINES) -fo debug\icon.res images\icon.rc
 
 qmake: FORCE
-	@$(QMAKE) -spec win32-msvc2013 CONFIG+=debug -o Makefile.Debug ChatClient.pro
+	@$(QMAKE) -spec win32-msvc2013 -o Makefile.Debug ChatClient.pro
 
 qmake_all: FORCE
 

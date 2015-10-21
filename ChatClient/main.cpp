@@ -9,7 +9,7 @@ void clearLogFile();
 int main(int argc, char *argv[])
 {
     clearLogFile();
-    qInstallMessageHandler(outputMessage);
+    //qInstallMessageHandler(outputMessage);
     QApplication a(argc, argv);
     MainWindow w;
     w.show();

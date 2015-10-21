@@ -3,14 +3,15 @@
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent)
 {
-    this->myName = new QLabel(QObject::tr("None"), this);
-    this->myAddress = new QLabel(QObject::tr("Client unregistered."), this);
-    this->myIcon = new QLabel(QObject::tr("XXXXX\nXXXXX\nXXXXX"), this);
-    this->myIcon->setAlignment(Qt::AlignCenter);
-    this->infoLabel = new QLabel(QObject::tr("<b>Active peer list: </b>"), this);
+    this->myName = new QLabel(QObject::tr("Username: none"), this);
+    this->myAddress = new QLabel(QObject::tr("Address: client unregistered."), this);
+    //this->myIcon = new QLabel(QObject::tr("XXXXX\nXXXXX\nXXXXX"), this);
+    //this->myIcon->setAlignment(Qt::AlignCenter);
+    this->infoLabel = new QLabel(QObject::tr("Active peer list:"), this);
     this->peerListWidget = new QListWidget();
     this->chatButton = new QPushButton(QObject::tr("New Chat"), this);
     this->registerButton = new QPushButton(QObject::tr("Register"), this);
+    this->checkButton = new QPushButton(QObject::tr("Recv Chat"), this);
     this->remoteServerLabel = new QLabel("Not set register server info.");
     this->server = new ChatServer(this);
     this->registConnection = new RegisterConnection(this);
@@ -21,6 +22,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     connect(this->chatButton, SIGNAL(clicked()), this, SLOT(handleActiveConnection()));
     connect(this->registerButton, SIGNAL(clicked()), this, SLOT(handleRegisterAction()));
+    connect(this->checkButton, SIGNAL(clicked()), this, SLOT(handleCheckDialog()));
 }
 
 MainWindow::~MainWindow()
@@ -35,19 +37,23 @@ void MainWindow::initLayout()
     myTextLayout->addWidget(myName);
     myTextLayout->addWidget(myAddress);
 
+    /******************************************
     QHBoxLayout *myInfoLayout = new QHBoxLayout;
     myInfoLayout->addWidget(myIcon);
     myInfoLayout->addLayout(myTextLayout);
     myInfoLayout->setStretch(0, 1);
     myInfoLayout->setStretch(1, 5);
+    *******************************************/
 
     QHBoxLayout *chatLayout = new QHBoxLayout;
     chatLayout->addWidget(registerButton);
     chatLayout->addStretch();
+    chatLayout->addWidget(checkButton);
     chatLayout->addWidget(chatButton);
 
     QVBoxLayout *mainLayout = new QVBoxLayout;
-    mainLayout->addLayout(myInfoLayout);
+    //mainLayout->addLayout(myInfoLayout);
+    mainLayout->addLayout(myTextLayout);
     mainLayout->addWidget(infoLabel);
     mainLayout->addWidget(peerListWidget);
     mainLayout->addLayout(chatLayout);
@@ -73,8 +79,8 @@ void MainWindow::initNetwork()
     if(this->server->startServer())
     {
         QString address = this->localServerIP.toString() + ":" + QString::number(this->localServerPort);
-        this->myName->setText(this->userName);
-        this->myAddress->setText(address);
+        this->myName->setText("Username: " + this->userName);
+        this->myAddress->setText("Address: " + address);
 
         QString remoteAddress = QString("Register Server Info: ") + this->remoteServerIP.toString() + ":" + QString::number(this->remoteServerPort);
         this->remoteServerLabel->setText(remoteAddress);
@@ -136,8 +142,14 @@ void MainWindow::updateListWidget()
     this->peerListWidget->clear();
     for(int i = 0; i < this->peerList.size(); i++)
     {
+        QString comment = "";
         PeerInfo *pi = this->peerList.at(i);
-        QString itemString = pi->getPeerName() + "@" + pi->getPeerIP() + ":" + QString::number(pi->getPeerPort());
+        QString name = pi->getPeerName();
+        if(name == this->userName)
+            comment = "  ( local )";
+        if(this->tempMsgs.contains(name))
+            comment = "  ( new message: " + QString::number(this->tempMsgs[name].size()) + " )";
+        QString itemString = pi->getPeerName() + "@" + pi->getPeerIP() + ":" + QString::number(pi->getPeerPort()) + comment;
         this->peerListWidget->addItem(new QListWidgetItem(itemString));
     }
 }
@@ -150,12 +162,13 @@ void MainWindow::handleNewPeerList(QString &peerListString)
     if(peerListString.isEmpty())
         return;
 
-    QString username;
+    QString username, comment;
     QHostAddress ip;
     int port;
     QStringList peerInfoList = peerListString.split(";");
     foreach(QString peerInfo, peerInfoList)
     {
+        comment = QString("");
         QStringList items = peerInfo.split("@");
         username = items.at(0);
         QString addr = items.at(1);
@@ -184,7 +197,7 @@ void MainWindow::handlePassiveConnection(ChatConnection *connection)
 
     connect(connection, SIGNAL(socketError(ChatConnection*,QAbstractSocket::SocketError)),
             this, SLOT(handleChatConnectionError(ChatConnection*,QAbstractSocket::SocketError)));
-    connect(connection, SIGNAL(endGreeting(ChatConnection*)), this, SLOT(handleNewChatDialog(ChatConnection*)));
+    connect(connection, SIGNAL(endGreeting(ChatConnection*)), this, SLOT(handlePassiveNewChat(ChatConnection*)));
 }
 
 void MainWindow::handleActiveConnection()
@@ -208,8 +221,10 @@ void MainWindow::handleActiveConnection()
     QString addr = strList.at(1);
     QStringList addrList = addr.split(":");
     QString ipStr = addrList.at(0);
-    QString portStr = addrList.at(1);
+    QString portExtStr = addrList.at(1);
     QHostAddress ip = QHostAddress(ipStr);
+    QStringList eList = portExtStr.split(" ");
+    QString portStr = eList.at(0);
     int port = portStr.toInt();
 
     if(name == this->userName && ipStr == this->localServerIP.toString() && port == this->localServerPort)
@@ -219,6 +234,16 @@ void MainWindow::handleActiveConnection()
         if(DEBUG)
             qDebug() << "Select local server to connect.";
 
+        return;
+    }
+
+    ChatConnection *cp = this->findChatConnection(name, ipStr);
+    if(cp)
+    {
+        QMessageBox::warning(this, tr("Warning"), tr("Connection already established."));
+
+        if(DEBUG)
+            qDebug() << "New error: Connection already established.";
         return;
     }
 
@@ -249,6 +274,65 @@ void MainWindow::handleNewChatDialog(ChatConnection *connection)
 
     ChatDialog *newChat = new ChatDialog(this, this->userName, peerName, peerAddr, connection);
     newChat->show();
+}
+
+void MainWindow::handleCheckDialog()
+{
+    QListWidgetItem *item = this->peerListWidget->currentItem();
+
+    if(!item)
+    {
+        QMessageBox::warning(this, tr("Warning"), tr("Please select one peer."));
+
+        if(DEBUG)
+            qDebug() << "Select no peer to read message.";
+        return;
+    }
+
+    QString connInfo = item->text();
+    QStringList strList = connInfo.split("@");
+    QString name = strList.at(0);
+    QString addr = strList.at(1);
+    QStringList addrList = addr.split(":");
+    QString ipStr = addrList.at(0);
+
+    ChatConnection *cp = this->findChatConnection(name, ipStr);
+    if(!cp)
+    {
+        QMessageBox::warning(this, tr("Warning"), tr("No connection or connection broked."));
+
+        if(DEBUG)
+            qDebug() << "No connection or connection broked.";
+        return;
+    }
+
+    ChatDialog *newChat = new ChatDialog(this, this->userName, name, addr, cp);
+    QList<QString> hList = this->tempMsgs[name];
+    newChat->readAndDisplayHistory(hList);
+    this->tempMsgs.remove(name);
+    this->updateListWidget();
+    newChat->show();
+}
+
+void MainWindow::handlePassiveNewChat(ChatConnection *connection)
+{
+    QList<QString> rcvInfoMsgs;
+    QString name = connection->getPeerName();
+    this->tempMsgs.insert(name, rcvInfoMsgs);
+    connect(connection, SIGNAL(newMessage(QString, QString)), this, SLOT(handlePassiveMsgRecv(QString, QString)));
+}
+
+void MainWindow::handlePassiveMsgRecv(QString from, QString msg)
+{
+    QDateTime time = QDateTime::currentDateTime();
+    QString timeString = time.toString("hh:mm:ss MM-dd");
+    QString infoString =  from + "(" + timeString + "): \n";
+    QString infoMsg = infoString + msg + "\n";
+    this->tempMsgs[from].push_back(infoMsg);
+    this->updateListWidget();
+
+    if(DEBUG)
+        qDebug() << "Handle passive received messages done.";
 }
 
 void MainWindow::handleChatConnectionError(ChatConnection *connection, QAbstractSocket::SocketError error)
@@ -348,4 +432,20 @@ void MainWindow::removeChatConnection(ChatConnection *connection)
 
     if(DEBUG)
         qDebug() << "Remove chat connection from connection list";
+}
+
+ChatConnection * MainWindow::findChatConnection(QString name, QString ip)
+{
+    for(int i = 0; i < this->connList.size(); i++)
+    {
+        ChatConnection *cp = this->connList.at(i);
+        qDebug() << "cp name: " << cp->getPeerName();
+        qDebug() << "cp ip: " << cp->getPeerIP();
+        qDebug() << "cp port" << cp->getPeerPort();
+        if((cp->getPeerName() == name) &&
+           (cp->getPeerIP() == ip))
+            return cp;
+    }
+
+    return NULL;
 }

@@ -59,6 +59,6 @@
 #include <QJsonValue>
 
 #define MaxBufferSize 1024000
-#define DEBUG 1
+#define DEBUG 0
 
 #endif // HEADER_H

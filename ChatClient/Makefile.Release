@@ -138,7 +138,7 @@ release\icon.res: images\icon.rc
 	rc $(DEFINES) -fo release\icon.res images\icon.rc
 
 qmake: FORCE
-	@$(QMAKE) -spec win32-msvc2013 CONFIG+=debug -o Makefile.Release ChatClient.pro
+	@$(QMAKE) -spec win32-msvc2013 -o Makefile.Release ChatClient.pro
 
 qmake_all: FORCE
 

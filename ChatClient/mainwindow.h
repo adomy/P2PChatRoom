@@ -23,10 +23,13 @@ public slots:
     void handleRegisterAction();
     void handleNewPeerList(QString &);
     void handleActiveConnection();
+    void handleCheckDialog();
     void handlePassiveConnection(ChatConnection *);
     void handleChatConnectionError(ChatConnection *, QAbstractSocket::SocketError);
     void handleRegisterError(QAbstractSocket::SocketError);
     void handleNewChatDialog(ChatConnection *);
+    void handlePassiveMsgRecv(QString, QString);
+    void handlePassiveNewChat(ChatConnection *);
 
 private:
     // private functions
@@ -37,15 +40,17 @@ private:
     // connections
     void addChatConnection(ChatConnection *);
     void removeChatConnection(ChatConnection *);
+    ChatConnection* findChatConnection(QString name, QString ip);
 
     // gui widgets
     QLabel *myName;
     QLabel *myAddress;
-    QLabel *myIcon;
+    //QLabel *myIcon;
     QLabel *infoLabel;
     QListWidget *peerListWidget;
     QPushButton *chatButton;
     QPushButton *registerButton;
+    QPushButton *checkButton;
     QLabel *remoteServerLabel;
 
     // Variables
@@ -57,6 +62,8 @@ private:
     QMutex mutex1, mutex2;
 
     // connections
+    QMap<QString, QList<QString>> tempMsgs;  //记录被动连接的接收信息
+    QMap<QString, ChatDialog *> chatMap;  //记录已打开的ChatDialog
     QList<PeerInfo *> peerList; // 记录活跃的远端主机
     QList<ChatConnection *> connList; // 用于管理所有聊天连接
     ChatServer *server; // 本地聊天连接监听服务器
