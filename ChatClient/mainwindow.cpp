@@ -156,8 +156,6 @@ void MainWindow::updateListWidget()
 
 void MainWindow::handleNewPeerList(QString &peerListString)
 {
-    this->mutex1.lock();
-
     this->peerList.clear();
     if(peerListString.isEmpty())
         return;
@@ -180,7 +178,6 @@ void MainWindow::handleNewPeerList(QString &peerListString)
         PeerInfo *pinfo = new PeerInfo(this, username, ip, port);
         this->peerList.push_back(pinfo);
     }
-    this->mutex1.unlock();
 
     this->updateListWidget();
 }
@@ -273,7 +270,13 @@ void MainWindow::handleNewChatDialog(ChatConnection *connection)
     QString peerAddr = connection->getPeerIP() + ":" + QString::number(connection->getPeerPort());
 
     ChatDialog *newChat = new ChatDialog(this, this->userName, peerName, peerAddr, connection);
+    connect(newChat, SIGNAL(dialogExit(ChatConnection*)), this, SLOT(handleDialogExit(ChatConnection*)));
     newChat->show();
+}
+
+void MainWindow::handleDialogExit(ChatConnection *connection)
+{
+    this->removeChatConnection(connection);
 }
 
 void MainWindow::handleCheckDialog()
@@ -307,6 +310,7 @@ void MainWindow::handleCheckDialog()
     }
 
     ChatDialog *newChat = new ChatDialog(this, this->userName, name, addr, cp);
+    connect(newChat, SIGNAL(dialogExit(ChatConnection*)), this, SLOT(handleDialogExit(ChatConnection*)));
     QList<QString> hList = this->tempMsgs[name];
     newChat->readAndDisplayHistory(hList);
     this->tempMsgs.remove(name);
@@ -416,9 +420,7 @@ void MainWindow::handleRegisterError(QAbstractSocket::SocketError error)
 
 void MainWindow::addChatConnection(ChatConnection *connection)
 {
-    this->mutex2.lock();
     this->connList.push_back(connection);
-    this->mutex2.unlock();
 
     if(DEBUG)
         qDebug() << "Add new chat connection to connection list.";
@@ -426,9 +428,7 @@ void MainWindow::addChatConnection(ChatConnection *connection)
 
 void MainWindow::removeChatConnection(ChatConnection *connection)
 {
-    this->mutex2.lock();
     this->connList.removeOne(connection);
-    this->mutex2.unlock();
 
     if(DEBUG)
         qDebug() << "Remove chat connection from connection list";

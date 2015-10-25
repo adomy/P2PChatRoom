@@ -14,6 +14,10 @@ public:
     ~ChatDialog();
 
     void readAndDisplayHistory(QList<QString>);
+
+signals:
+    void dialogExit(ChatConnection *);
+
 public slots:
     void handleReceivedMssage(QString from, QString message);
     void handleToSendMessage();

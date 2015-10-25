@@ -182,5 +182,6 @@ void ChatDialog::handleConnectionError(QAbstractSocket::SocketError error)
 
 void ChatDialog::handleRejected()
 {
+    emit this->dialogExit(this->chatSession);
     this->chatSession->close();
 }

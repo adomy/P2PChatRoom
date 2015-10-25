@@ -30,6 +30,7 @@ public slots:
     void handleNewChatDialog(ChatConnection *);
     void handlePassiveMsgRecv(QString, QString);
     void handlePassiveNewChat(ChatConnection *);
+    void handleDialogExit(ChatConnection *);
 
 private:
     // private functions
@@ -59,7 +60,6 @@ private:
     int localServerPort;
     QHostAddress remoteServerIP;
     int remoteServerPort;
-    QMutex mutex1, mutex2;
 
     // connections
     QMap<QString, QList<QString>> tempMsgs;  //记录被动连接的接收信息

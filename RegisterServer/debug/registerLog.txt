@@ -1,928 +1,32 @@
-Debug: (window.cpp:113) Register server ip address:  "192.168.1.109"
+Debug: (window.cpp:113) Register server ip address:  "192.168.1.106"
 Debug: (window.cpp:114) Register server port:  10001
 Debug: (window.cpp:128) Register server started.
 Debug: (window.cpp:170) Handle new connection.
 Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown:192.168.1.109:9001"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown:192.168.1.109:9001"
+Debug: (registerconnection.cpp:156) Get greeting message:  "unknown1:192.168.1.106:9001"
+Debug: (registerconnection.cpp:166) Received greeting message:  "unknown1:192.168.1.106:9001"
 Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "jk:192.168.1.109:8997"
-Debug: (registerconnection.cpp:166) Received greeting message:  "jk:192.168.1.109:8997"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "jk@192.168.1.109:8997"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "jk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "8997"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "jk"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "jk@192.168.1.109:8997"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "jk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "8997"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "jk@192.168.1.109:8997"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "jk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "8997"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "jk@192.168.1.109:8997"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "jk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "8997"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "jk@192.168.1.109:8997"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "jk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "8997"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "jk"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "tim:192.168.1.109:9001"
-Debug: (registerconnection.cpp:166) Received greeting message:  "tim:192.168.1.109:9001"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "tim@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "tim"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "tim"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "jack:192.168.1.109:9004"
-Debug: (registerconnection.cpp:166) Received greeting message:  "jack:192.168.1.109:9004"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "jack@192.168.1.109:9004"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "jack"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9004"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "jack"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "tim@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "tim"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "jack@192.168.1.109:9004"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "jack"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9004"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "tim@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "tim"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "jack@192.168.1.109:9004"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "jack"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9004"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "tim@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "tim"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "tim"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "jack"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown:192.168.1.109:9001"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown:192.168.1.109:9001"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "tim:192.168.1.109:8995"
-Debug: (registerconnection.cpp:166) Received greeting message:  "tim:192.168.1.109:8995"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "tim@192.168.1.109:8995"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "tim"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "8995"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "tim"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "tim@192.168.1.109:8995"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "tim"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "8995"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "tim@192.168.1.109:8995"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "tim"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "8995"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "tim"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "ajl:192.168.1.109:9001"
-Debug: (registerconnection.cpp:166) Received greeting message:  "ajl:192.168.1.109:9001"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "ajl@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "ajl"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "ajl"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown:192.168.1.109:9009"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown:192.168.1.109:9009"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9009"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9009"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "ajl@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "ajl"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9009"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9009"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "ajl@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "ajl"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9009"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9009"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "ajl@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "ajl"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9009"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9009"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "ajl@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "ajl"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9009"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9009"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "ajl@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "ajl"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9009"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9009"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "ajl@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "ajl"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9009"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9009"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "ajl@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "ajl"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "ajl"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "jack:192.168.1.109:9001"
-Debug: (registerconnection.cpp:166) Received greeting message:  "jack:192.168.1.109:9001"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "jack@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "jack"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "jack"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "tim:192.168.1.109:9005"
-Debug: (registerconnection.cpp:166) Received greeting message:  "tim:192.168.1.109:9005"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "tim@192.168.1.109:9005"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "tim"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9005"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "tim"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "jack@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "jack"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "tim@192.168.1.109:9005"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "tim"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9005"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "jack@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "jack"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "tim@192.168.1.109:9005"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "tim"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9005"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "jack@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "jack"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "tim@192.168.1.109:9005"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "tim"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9005"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "jack@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "jack"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "tim@192.168.1.109:9005"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "tim"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9005"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "jack@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "jack"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "jack"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "tim"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown:192.168.1.109:9001"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown:192.168.1.109:9001"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "dsdsk:192.168.1.109:9002"
-Debug: (registerconnection.cpp:166) Received greeting message:  "dsdsk:192.168.1.109:9002"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "dsdsk@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "dsdsk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "dsdsk"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "dsdsk@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "dsdsk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "dsdsk@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "dsdsk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "dsdsk@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "dsdsk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "dsdsk@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "dsdsk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "dsdsk@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "dsdsk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "dsdsk@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "dsdsk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "dsdsk@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "dsdsk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "dsdsk@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "dsdsk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "dsdsk@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "dsdsk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "dsdsk@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "dsdsk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "dsdsk@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "dsdsk"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "dsdsk"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown:192.168.1.109:9001"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown:192.168.1.109:9001"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown1:192.168.1.109:9003"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown1:192.168.1.109:9003"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9003"
+Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.106:9001"
 Debug: (window.cpp:199) Register message information: 
 Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9003"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
 Debug: (peerinfo.cpp:15) PeerInfo active timer started.
 Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown1"
 Debug: (window.cpp:359) Broadcast peerList changed message
 Debug: (window.cpp:340) Generate PeerList String.
 Debug: (window.cpp:369) Broadcast message sent.
 Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9003"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9003"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9003"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9003"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9003"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9003"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown1"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
 Debug: (window.cpp:170) Handle new connection.
 Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown:192.168.1.109:9001"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown:192.168.1.109:9001"
+Debug: (registerconnection.cpp:156) Get greeting message:  "unknown2:192.168.1.100:9001"
+Debug: (registerconnection.cpp:166) Received greeting message:  "unknown2:192.168.1.100:9001"
 Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown2:192.168.1.109:9002"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown2:192.168.1.109:9002"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
 Debug: (window.cpp:199) Register message information: 
 Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
 Debug: (peerinfo.cpp:15) PeerInfo active timer started.
 Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown2"
 Debug: (window.cpp:359) Broadcast peerList changed message
@@ -930,1082 +34,146 @@ Debug: (window.cpp:340) Generate PeerList String.
 Debug: (window.cpp:369) Broadcast message sent.
 Debug: (window.cpp:228) Handle new register msg done.
 Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown2"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown:192.168.1.109:9001"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown:192.168.1.109:9001"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown1:192.168.1.109:9002"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown1:192.168.1.109:9002"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9002"
+Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.106:9001"
 Debug: (window.cpp:199) Register message information: 
 Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown1"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
 Debug: (window.cpp:202) Port: "9001"
 Debug: (window.cpp:211) Active timer of PeerInfo reset.
 Debug: (window.cpp:228) Handle new register msg done.
 Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown:192.168.1.109:9001"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown:192.168.1.109:9001"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown1"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown:192.168.1.109:9001"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown:192.168.1.109:9001"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown2:192.168.1.109:9002"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown2:192.168.1.109:9002"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
 Debug: (window.cpp:199) Register message information: 
 Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown2"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
 Debug: (window.cpp:202) Port: "9001"
 Debug: (window.cpp:211) Active timer of PeerInfo reset.
 Debug: (window.cpp:228) Handle new register msg done.
 Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9002"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9002"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown2"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown1:192.168.1.109:9001"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown1:192.168.1.109:9001"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
+Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.106:9001"
 Debug: (window.cpp:199) Register message information: 
 Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
 Debug: (window.cpp:202) Port: "9001"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown1"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
 Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown2:192.168.1.109:9005"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown2:192.168.1.109:9005"
 Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9005"
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
 Debug: (window.cpp:199) Register message information: 
 Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9005"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown2"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
 Debug: (window.cpp:202) Port: "9001"
 Debug: (window.cpp:211) Active timer of PeerInfo reset.
 Debug: (window.cpp:228) Handle new register msg done.
 Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9005"
+Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown1"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
 Debug: (window.cpp:199) Register message information: 
 Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9005"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
 Debug: (window.cpp:202) Port: "9001"
 Debug: (window.cpp:211) Active timer of PeerInfo reset.
 Debug: (window.cpp:228) Handle new register msg done.
 Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9005"
+Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown1"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
 Debug: (window.cpp:199) Register message information: 
 Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9005"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
 Debug: (window.cpp:202) Port: "9001"
 Debug: (window.cpp:211) Active timer of PeerInfo reset.
 Debug: (window.cpp:228) Handle new register msg done.
 Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9005"
+Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown1"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
 Debug: (window.cpp:199) Register message information: 
 Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9005"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
 Debug: (window.cpp:202) Port: "9001"
 Debug: (window.cpp:211) Active timer of PeerInfo reset.
 Debug: (window.cpp:228) Handle new register msg done.
 Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9005"
+Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown1"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
 Debug: (window.cpp:199) Register message information: 
 Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9005"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
 Debug: (window.cpp:202) Port: "9001"
 Debug: (window.cpp:211) Active timer of PeerInfo reset.
 Debug: (window.cpp:228) Handle new register msg done.
 Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9005"
+Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown1"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
 Debug: (window.cpp:199) Register message information: 
 Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9005"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
 Debug: (window.cpp:202) Port: "9001"
 Debug: (window.cpp:211) Active timer of PeerInfo reset.
 Debug: (window.cpp:228) Handle new register msg done.
 Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9005"
+Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown1"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
 Debug: (window.cpp:199) Register message information: 
 Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9005"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
 Debug: (window.cpp:202) Port: "9001"
 Debug: (window.cpp:211) Active timer of PeerInfo reset.
 Debug: (window.cpp:228) Handle new register msg done.
 Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9005"
+Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown1"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
 Debug: (window.cpp:199) Register message information: 
 Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9005"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9005"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9005"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9005"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9005"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown2"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown1"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown:192.168.1.109:9001"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown:192.168.1.109:9001"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown:192.168.1.109:9001"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown:192.168.1.109:9001"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown1:192.168.1.109:9003"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown1:192.168.1.109:9003"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9003"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9003"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown1"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9003"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9003"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9003"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9003"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown1"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown1:192.168.1.109:9001"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown1:192.168.1.109:9001"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown1"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown2:192.168.1.109:9003"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown2:192.168.1.109:9003"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9003"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9003"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown2"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9003"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9003"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9003"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9003"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9003"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9003"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown2"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:252) Register connection network error.
-Debug: (window.cpp:279) Register connection error:  "Remote host closed."
-Debug: (window.cpp:410) Remove PeerInfo from peerList "unknown1"
-Debug: (window.cpp:390) Remove connection from registerConns.
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:291) Handle network error done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown2:192.168.1.109:9001"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown2:192.168.1.109:9001"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown2"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:170) Handle new connection.
-Debug: (window.cpp:379) Add new connection into registerConns.
-Debug: (registerconnection.cpp:156) Get greeting message:  "unknown1:192.168.1.109:9004"
-Debug: (registerconnection.cpp:166) Received greeting message:  "unknown1:192.168.1.109:9004"
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9004"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9004"
-Debug: (peerinfo.cpp:15) PeerInfo active timer started.
-Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown1"
-Debug: (window.cpp:359) Broadcast peerList changed message
-Debug: (window.cpp:340) Generate PeerList String.
-Debug: (window.cpp:369) Broadcast message sent.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9001"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown1@192.168.1.109:9004"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown1"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
-Debug: (window.cpp:202) Port: "9004"
-Debug: (window.cpp:211) Active timer of PeerInfo reset.
-Debug: (window.cpp:228) Handle new register msg done.
-Debug: (window.cpp:184) Enter handle_new_register_msg function:
-Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.109:9001"
-Debug: (window.cpp:199) Register message information: 
-Debug: (window.cpp:200) Hostname:  "unknown2"
-Debug: (window.cpp:201) IP address: "192.168.1.109"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
 Debug: (window.cpp:202) Port: "9001"
 Debug: (window.cpp:211) Active timer of PeerInfo reset.
 Debug: (window.cpp:228) Handle new register msg done.
@@ -2025,3 +193,315 @@ Debug: (window.cpp:359) Broadcast peerList changed message
 Debug: (window.cpp:340) Generate PeerList String.
 Debug: (window.cpp:369) Broadcast message sent.
 Debug: (window.cpp:291) Handle network error done.
+Debug: (window.cpp:170) Handle new connection.
+Debug: (window.cpp:379) Add new connection into registerConns.
+Debug: (registerconnection.cpp:156) Get greeting message:  "unknownsd:192.168.1.106:9001"
+Debug: (registerconnection.cpp:166) Received greeting message:  "unknownsd:192.168.1.106:9001"
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (peerinfo.cpp:15) PeerInfo active timer started.
+Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknownsd"
+Debug: (window.cpp:359) Broadcast peerList changed message
+Debug: (window.cpp:340) Generate PeerList String.
+Debug: (window.cpp:369) Broadcast message sent.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:170) Handle new connection.
+Debug: (window.cpp:379) Add new connection into registerConns.
+Debug: (registerconnection.cpp:156) Get greeting message:  "unknown2:192.168.1.100:9001"
+Debug: (registerconnection.cpp:166) Received greeting message:  "unknown2:192.168.1.100:9001"
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (peerinfo.cpp:15) PeerInfo active timer started.
+Debug: (window.cpp:400) Add new PeerInfo into peerList: "unknown2"
+Debug: (window.cpp:359) Broadcast peerList changed message
+Debug: (window.cpp:340) Generate PeerList String.
+Debug: (window.cpp:369) Broadcast message sent.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknown2@192.168.1.100:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknown2"
+Debug: (window.cpp:201) IP address: "192.168.1.100"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
+Debug: (window.cpp:184) Enter handle_new_register_msg function:
+Debug: (window.cpp:185) New register message:  "unknownsd@192.168.1.106:9001"
+Debug: (window.cpp:199) Register message information: 
+Debug: (window.cpp:200) Hostname:  "unknownsd"
+Debug: (window.cpp:201) IP address: "192.168.1.106"
+Debug: (window.cpp:202) Port: "9001"
+Debug: (window.cpp:211) Active timer of PeerInfo reset.
+Debug: (window.cpp:228) Handle new register msg done.
