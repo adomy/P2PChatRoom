@@ -1,0 +1,16 @@
+Debug: (mainwindow.cpp:442)
+ cp name:  "¶Å¸¦"
+Debug: (mainwindow.cpp:443)
+ cp ip:  "192.168.1.100"
+Debug: (mainwindow.cpp:444)
+ cp port 9001
+Warning: (io\qiodevice.cpp:1307)
+ QIODevice::write: device not open
+Debug: (mainwindow.cpp:442)
+ cp name:  "¶Å¸¦"
+Debug: (mainwindow.cpp:443)
+ cp ip:  "192.168.1.100"
+Debug: (mainwindow.cpp:444)
+ cp port 9001
+Warning: (io\qiodevice.cpp:1307)
+ QIODevice::write: device not open
