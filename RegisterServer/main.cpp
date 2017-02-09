@@ -46,6 +46,10 @@ void outputMessage(QtMsgType type, const QMessageLogContext &context, const QStr
 
     case QtFatalMsg:
         text = QString("Fatal:");
+        break;
+
+    default:
+        break;
     }
 
     QString context_info = QString("(%1:%2)").arg(QString(context.file)).arg(context.line);
